@@ -3,14 +3,14 @@ $(document).ready(function(){
     {
         $.ajax({
             type: 'POST',
-            url: '../../helper/ajaxStore.php',
+            // url: '../../helper/ajaxStore.php',
+            url: 'https://1c3e3c65.ngrok.io/helper/ajaxStore.php',
             dataType: 'json',
             data: {value: value},
             success: function(json) {
                 Console.log(json);
             }
         });
-        Console.log('Value: ' + value);
     }
 
     // Enable pusher logging - don't include this in production

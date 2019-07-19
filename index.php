@@ -18,7 +18,9 @@ include_once 'TemperatureController.php';
 Current temperature : <span id='temp_value'><?php echo $temperature?></span>
   </p>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://js.pusher.com/4.4/pusher.min.js"></script>
+<!--  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+  <script src="asset/js/jquery-3.4.1.min.js"></script>
+<!--  <script src="https://js.pusher.com/4.4/pusher.min.js"></script>-->
+  <script src="asset/js/pusher.min.js"></script>
   <script src="asset/js/main.js"></script>
 </body>
